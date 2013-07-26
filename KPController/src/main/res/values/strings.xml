@@ -4,5 +4,11 @@
     <string name="app_name">KPController</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_startPlayer">Start Player</string>
+    <string name="title_activity_kpplayer">KPPlayerActivity</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_series">Series</string>
+    <string name="title_musics">Musics</string>
 
 </resources>

@@ -1,28 +1,32 @@
 package com.kp.kpcontroller;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.net.InetSocketAddress;
-import java.net.Socket;
+import com.kp.kpcontroller.network.KPSocket;
+import com.kp.kpcontroller.player.KPPlayerActivity;
 
 public class MainActivity extends Activity {
 
-    private Socket sock;
-    private BufferedReader r;
-    private BufferedWriter out;
-    private Thread thrd;
+    private KPSocket socket;
+    private boolean autoConnect;
+    private static MainActivity act;
+
+
+    public static MainActivity getInstance() {
+        return act;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        autoConnect = false;
+        act = this;
+        socket = new KPSocket();
     }
 
 
@@ -36,56 +40,27 @@ public class MainActivity extends Activity {
     @Override
     public void onResume() {
         super.onResume();
-        try{
-            InetSocketAddress address = new InetSocketAddress("qiinformatica.no-ip.info", 41979);
-            sock = new Socket();
-            sock.connect(address);
-            r = new BufferedReader(new InputStreamReader(sock.getInputStream()));
-            out = new BufferedWriter(new OutputStreamWriter(sock
-                    .getOutputStream()));
-
-            thrd = new Thread(new Runnable() {
-                public void run() {
-                    while (!Thread.interrupted()) {
-                        try {
-                            final String data = r.readLine();
-                            if (data != null)
-                                runOnUiThread(new Runnable() {
-                                    @Override
-                                    public void run() {
-                                        // do something in ui thread with the data var
-                                    }
-                                });
-
-                        } catch (IOException e) { }
-                    }
-                }
-            });
-            thrd.start();
+        if (autoConnect && !socket.getConnected()) {
+            socket.Connect();
         }
-        catch (IOException ioe) { }
-    }
-
-    private void sendText() {
-        String text = "listall";
-        try {
-            out.write(text + "\n");
-            out.flush();
-        } catch (IOException e) {}
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        if (thrd != null)
-            thrd.interrupt();
-        try {
-            if (sock != null) {
-                sock.getOutputStream().close();
-                sock.getInputStream().close();
-                sock.close();
-            }
-        } catch (IOException e) {}
-        thrd = null;
+        if (socket.getConnected()) {
+            socket.Disconnect();
+        }
     }
+
+    public void connect() {
+        this.autoConnect = true;
+        socket.Connect();
+    }
+
+    public void startPlayer() {
+        Intent intent = new Intent(this, KPPlayerActivity.class);
+        startActivity(intent);
+    }
+
 }
