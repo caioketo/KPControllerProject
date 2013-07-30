@@ -15,32 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eca83ca-dc2e-48a6-b708-2a7396afb0aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/rihanna.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/Album.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/Author.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/AuthorAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/KPPlayerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/KPSocket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MoviesFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/Music.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MusicsFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/SeriesFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/activity_kpplayer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/fragment_kpplayer_movies.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/fragment_kpplayer_musics.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/fragment_kpplayer_series.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/gradient_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/gradient_bg_hover.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/image_bg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/menu/kpplayer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/list_row.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/res/drawable-hdpi/list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPController/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/KPController/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/MainActivity.java" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPController/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/KPController/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KPController/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/KPController/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/packet/ListPacket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="KPController.iws" />
@@ -117,21 +92,43 @@
       <file leaf-file-name="AuthorAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/AuthorAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1020">
+            <state line="20" column="53" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#543#551#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicsFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MusicsFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MusicsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.7884972" vertical-offset="0" max-vertical-offset="646">
+            <state line="37" column="0" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <element signature="e#575#583#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KPSocket.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/KPSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListPacket.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/packet/ListPacket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="69" selection-start="801" selection-end="801" vertical-scroll-proportion="0.45777234" vertical-offset="0" max-vertical-offset="817">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#344#352#0" expanded="true" />
+                <element signature="e#406#413#0" expanded="true" />
+                <element signature="e#467#474#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/KPSocket.java" />
         <option value="$PROJECT_DIR$/KPController/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/MainActivity.java" />
         <option value="$PROJECT_DIR$/KPController/src/main/res/values/strings.xml" />
@@ -207,6 +203,7 @@
         <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/Album.java" />
         <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/AuthorAdapter.java" />
         <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MusicsFragment.java" />
+        <option value="$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/packet/ListPacket.java" />
       </list>
     </option>
   </component>
@@ -242,8 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -388,8 +383,120 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPControllerProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpcontroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPControllerProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpcontroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPControllerProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KPController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kpcontroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="packet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,8 +513,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -578,7 +685,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -657,31 +764,12 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/KPController/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KPController/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/res/layout/fragment_kpplayer_series.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/res/layout/fragment_kpplayer_movies.xml">
@@ -689,9 +777,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MoviesFragment.java">
@@ -736,9 +822,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/res/layout/list_row.xml">
@@ -746,9 +830,7 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/Album.java">
@@ -772,21 +854,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MusicsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <element signature="e#575#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/classes/AuthorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1020">
+        <state line="20" column="53" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#543#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/player/MusicsFragment.java">
+    <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/KPSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.7884972" vertical-offset="0" max-vertical-offset="646">
+        <state line="15" column="13" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="747" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KPController/src/main/java/com/kp/kpcontroller/network/packet/ListPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="69" selection-start="801" selection-end="801" vertical-scroll-proportion="0.45777234" vertical-offset="0" max-vertical-offset="817">
           <folding>
-            <element signature="e#575#583#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#352#0" expanded="true" />
+            <element signature="e#406#413#0" expanded="true" />
+            <element signature="e#467#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
